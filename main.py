@@ -56,7 +56,7 @@ activity_cycle = itertools.cycle(activities)
 
 bot = commands.Bot(
     command_prefix=get_prefix,
-    owner_ids=[730634576321314867],
+    owner_ids=[],
     intents=discord.Intents.all(),
     case_insensitive=True
 )
